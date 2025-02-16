@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# wikipedia_word_frequency_dictionary
-=======
 # Wikipedia Word-Frequency Dictionary
 
 ## Project Overview
