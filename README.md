@@ -67,7 +67,6 @@ The `text_processing.py` module handles:
 ### Wikipedia Scraping
 
 - **Rate Limiting**: The Wikipedia API allows only one request per second. To respect this rate limit, `asyncio.Semaphore` is used to limit the number of concurrent requests to Wikipedia.
-- **Caching**: To avoid making redundant API requests for the same article, the application caches the results of fetched articles.
 - **Recursive Scraping**: The application supports fetching articles recursively up to the specified depth. The links from each article are followed in a depth-first manner, but articles are not revisited to prevent infinite loops.
 
 ### Performance Optimization
@@ -120,14 +119,8 @@ The project includes unit tests for validating the functionality. To run the tes
 pytest tests.py
 ```
 
-## Conclusion
-
-This application provides an easy way to traverse Wikipedia articles, count word frequencies, and filter results based on specific requirements. It leverages asynchronous programming for efficiency and utilizes the power of FastAPI for API development.
-
-Feel free to explore the provided API documentation and test the application with various Wikipedia articles.
-
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 >>>>>>> ead30ce (Initial commit)
