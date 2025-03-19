@@ -1,7 +1,7 @@
-# Wikipedia Word-Frequency Dictionary
+# Word-Frequency Dictionary
 
 ## Project Overview
-The **Wikipedia Word-Frequency Dictionary** is a Python-based web application that fetches Wikipedia articles, processes text, and calculates word frequencies. The application allows users to specify a starting article and a depth to recursively fetch linked articles, counting word frequencies across the traversed content.
+The **Word-Frequency Dictionary** is a Python-based web application that fetches Wikipedia articles, processes text, and calculates word frequencies. The application allows users to specify a starting article and a depth to recursively fetch linked articles, counting word frequencies across the traversed content.
 
 ### Objective
 Generate a word-frequency dictionary by recursively fetching Wikipedia articles, starting from a given article and depth. The dictionary includes word counts and percentages of their frequency in the content.
